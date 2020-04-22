@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* navigation bar */
+
+.header-nav {
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 77%;
+  margin: 0 auto;
+  background: linear-gradient(#666,#737373, #8a8a8a);
+  border: solid #686868 1px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 2.2rem;
+}
+
+.nav-link {
+  flex: 1;
+  color: white;
+  text-decoration: none;
+  border-right: solid #555 1px;
+  border-collapse: collapse;
+}
+
+div.nav-link input {
+  border: none;
+  background:#666;
+  border-radius: 35px;
+  width: 80%;
+  padding: 3% 5%;
+}
+
+.nav-link:hover {
+  background: #555
+}
+
+.search-bar:hover {
+  background: linear-gradient(#666,#737373, #8a8a8a);
+}
+
+.search-bar {
+  flex: 1.4;
+}
+
+.search-bar input:focus {
+  background: white;
+}
+
+/* hero stuff */
+
+div.hero {
+  max-width: 100%;
+  height: 76vh;
+  background: url('pictures/your_verse_hero.jpg');
+  background-size: no-repeat;
+  background-position: 50% 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 130px;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  text-shadow: black 1px;
+  color: white;
+  font-weight: 100;
+}
+
+div.hero-text h1 {
+  font-size: 3rem;
+}
+
+/* picture boxes */
+
+div.picture-container {
+  display: flex;
+  height: 200px;
+}
+
+div.picture-box {
+  flex: 1;
+  margin-top: 2px;
+}
+
+div.pic1 {
+  background-image: url('pictures/pic1.jpg');
+  background-position: center;
+}
+
+div.pic2 {
+  background-image: url('pictures/pic2.jpg');
+  background-position: center;
+}
+
+div.pic3 {
+  background-image: url('pictures/pic3.jpg');
+  background-position: center;
+}
+
+div.pic4 {
+  background-image: url('pictures/pic4.jpg');
+  background-position: center;
+}
+
+/* footer stuff */
+
+footer {
+  display: flex;
+  margin: 1% 10%;
+  font-size: 0.65rem;
+  color: #858585;
+}
+
+div.footer-links {
+  flex: 1;
+}
+
+p a {
+  color: #078bcd;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
